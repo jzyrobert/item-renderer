@@ -1,0 +1,175 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="mReBody_Alb">
+      <init_from>FtrStudyposterReBody1/mReBody_Alb.png</init_from>
+    </image>
+    <image id="mReBody_Nrm">
+      <init_from>FtrStudyposterReBody1/mReBody_Nrm.png</init_from>
+    </image>
+  <image id="mReBody_Mix"><init_from>FtrStudyposterReBody1/mReBody_Mix.png</init_from></image></library_images>
+  <library_materials>
+    <material id="mReBody">
+      <instance_effect url="#Effect_mReBody" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_mReBody">
+      <profile_COMMON>
+        <newparam sid="surface_mReBody-diffuse">
+          <surface type="2D">
+            <init_from>mReBody_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mReBody-diffuse">
+          <sampler2D>
+            <source>surface_mReBody-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_mReBody-bump">
+          <surface type="2D">
+            <init_from>mReBody_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mReBody-bump">
+          <sampler2D>
+            <source>surface_mReBody-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texcoord="CHANNEL0" texture="sampler_mReBody-diffuse" />
+            </diffuse>
+            <bump>
+              <texture texcoord="CHANNEL0" texture="sampler_mReBody-bump" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="poster__mReBody-mesh" name="poster__mReBody">
+      <mesh>
+        <source id="poster__mReBody-position">
+          <float_array count="132" id="poster__mReBody-position-array">6.026992 4.046554 0 6.027373 -4.046701 0 6.00943 4.075603 0 6.0089 -4.07463 0 -6.0089 4.07463 0 -6.00943 -4.075603 0 -6.027373 4.046701 0 -6.026992 -4.046554 0 6.026992 4.046554 0 6.034246 4.04868 0.012 6.027373 -4.046701 0 6.035052 -4.047554 0.012 6.009529 -4.034075 0.05669387 6.009707 4.03422 0.05669387 -6.009529 4.034075 0.05669387 5.99027 4.062796 0.05669387 6.034246 4.04868 0.012 6.026992 4.046554 0 6.00943 4.075603 0 6.011744 4.083932 0.01222001 -6.011744 4.083932 0.01222001 6.00943 4.075603 0 -6.0089 4.07463 0 -5.990733 4.063646 0.05669387 -6.035052 4.047554 0.012 -6.0089 4.07463 0 -6.027373 4.046701 0 -6.009732 -4.034167 0.05669387 -6.034246 -4.04868 0.012 -6.035052 4.047554 0.012 -6.027373 4.046701 0 -6.026992 -4.046554 0 5.990733 -4.063646 0.05669387 6.035052 -4.047554 0.012 6.027373 -4.046701 0 6.0089 -4.07463 0 6.011744 -4.083932 0.01037236 -5.99027 -4.062796 0.05669387 -6.034246 -4.04868 0.012 6.0089 -4.07463 0 -6.00943 -4.075603 0 -6.011744 -4.083932 0.01037236 -6.00943 -4.075603 0 -6.026992 -4.046554 0</float_array>
+          <technique_common>
+            <accessor count="44" source="#poster__mReBody-position-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="poster__mReBody-normal">
+          <float_array count="132" id="poster__mReBody-normal-array">0.3268102 0 -0.9452055 0.3189824 0 -0.9471624 0 0.001956947 -1 0 -0.001956947 -1 0 0.001956947 -1 0 -0.001956947 -1 -0.3189824 0 -0.9471624 -0.3268102 0 -0.9452055 0.3268102 0 -0.9452055 0.960861 0.001956947 0.2798434 0.3189824 0 -0.9471624 0.962818 -0.001956947 0.2720157 0.003913894 0 1 0.003913894 0 1 -0.003913894 0 1 0.001956947 0.6457925 0.7632094 0.960861 0.001956947 0.2798434 0.3268102 0 -0.9452055 0 0.001956947 -1 0.003913894 0.9863014 0.1663405 -0.003913894 0.9843444 0.1722113 0 0.001956947 -1 0 0.001956947 -1 -0.001956947 0.6497065 0.7612525 -0.962818 0.001956947 0.2720157 0 0.001956947 -1 -0.3189824 0 -0.9471624 -0.003913894 0 1 -0.960861 -0.003913894 0.2798434 -0.962818 0.001956947 0.2720157 -0.3189824 0 -0.9471624 -0.3268102 0 -0.9452055 0.001956947 -0.6634051 0.7495108 0.962818 -0.001956947 0.2720157 0.3189824 0 -0.9471624 0 -0.001956947 -1 0.003913894 -0.9843444 0.1761252 -0.001956947 -0.6594912 0.7514677 -0.960861 -0.003913894 0.2798434 0 -0.001956947 -1 0 -0.001956947 -1 -0.003913894 -0.9843444 0.1722113 0 -0.001956947 -1 -0.3268102 0 -0.9452055</float_array>
+          <technique_common>
+            <accessor count="44" source="#poster__mReBody-normal-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="poster__mReBody-texcoord">
+          <float_array count="88" id="poster__mReBody-texcoord-array">0.03938353 0.3555352 0.03938353 0.3485008 0.03939879 0.3555657 0.03939879 0.3484855 0.04983597 0.3555657 0.04983597 0.3484855 0.04986648 0.3555352 0.04985122 0.3485008 0.9549859 0.9813077 0.9544365 0.981506 0.9550011 0.3780728 0.9544671 0.3778897 0.9502098 0.3781033 0.9503166 0.9813077 0.05168231 0.9812924 0.9397269 0.9851224 0.950927 0.9874266 0.9507744 0.9884642 0.9469749 0.9884794 0.9465476 0.9882506 0.05543603 0.9882506 0.9426718 0.9885252 0.05609217 0.9885252 0.05401694 0.9852903 0.05094988 0.987274 0.05493248 0.9884642 0.05119402 0.9884642 0.05218586 0.3780881 0.04753185 0.3778897 0.04750134 0.981506 0.04698253 0.981506 0.04698253 0.3780881 0.9477836 0.3758755 0.9510185 0.372198 0.9507744 0.371191 0.9470512 0.3711299 0.9465476 0.3715877 0.05438315 0.3759365 0.05104143 0.3720607 0.9458915 0.3709926 0.05929656 0.3709621 0.05543603 0.3715877 0.05499351 0.3710842 0.05120928 0.3711147</float_array>
+          <technique_common>
+            <accessor count="44" source="#poster__mReBody-texcoord-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="poster__mReBody-vertex">
+          <input semantic="POSITION" source="#poster__mReBody-position" />
+        </vertices>
+        <triangles count="44" material="mReBody">
+          <input offset="0" semantic="VERTEX" source="#poster__mReBody-vertex" />
+          <input offset="1" semantic="NORMAL" source="#poster__mReBody-normal" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#poster__mReBody-texcoord" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 2 2 2 3 3 3 5 5 5 4 4 4 3 3 3 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 11 11 11 9 9 9 13 13 13 12 12 12 9 9 9 13 13 13 14 14 14 12 12 12 13 13 13 15 15 15 14 14 14 13 13 13 16 16 16 15 15 15 17 17 17 18 18 18 16 16 16 18 18 18 19 19 19 16 16 16 16 16 16 19 19 19 15 15 15 15 15 15 19 19 19 20 20 20 19 19 19 21 21 21 20 20 20 21 21 21 22 22 22 20 20 20 23 23 23 15 15 15 20 20 20 15 15 15 23 23 23 14 14 14 23 23 23 20 20 20 24 24 24 14 14 14 23 23 23 24 24 24 24 24 24 20 20 20 25 25 25 26 26 26 24 24 24 25 25 25 14 14 14 27 27 27 12 12 12 27 27 27 14 14 14 28 28 28 14 14 14 29 29 29 28 28 28 29 29 29 30 30 30 28 28 28 30 30 30 31 31 31 28 28 28 12 12 12 27 27 27 32 32 32 12 12 12 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 33 33 33 36 36 36 35 35 35 32 32 32 36 36 36 33 33 33 27 27 27 37 37 37 32 32 32 32 32 32 37 37 37 36 36 36 27 27 27 38 38 38 37 37 37 39 39 39 36 36 36 40 40 40 36 36 36 41 41 41 40 40 40 37 37 37 41 41 41 36 36 36 38 38 38 41 41 41 37 37 37 42 42 42 41 41 41 38 38 38 43 43 43 42 42 42 38 38 38 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_poster__mReBody-mesh">
+      <skin source="#poster__mReBody-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="poster__mReBody-mesh-joint">
+          <Name_array count="1" id="poster__mReBody-mesh-joint-array">Root</Name_array>
+          <technique_common>
+            <accessor count="1" source="#poster__mReBody-mesh-joint-array" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="poster__mReBody-mesh-inv_bind_matrix">
+          <float_array count="16" id="poster__mReBody-mesh-inv_bind_matrix-array">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor count="1" source="#poster__mReBody-mesh-inv_bind_matrix-array" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="poster__mReBody-mesh-weight">
+          <float_array count="1" id="poster__mReBody-mesh-weight-array">1</float_array>
+          <technique_common>
+            <accessor count="1" source="#poster__mReBody-mesh-weight-array" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#poster__mReBody-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#poster__mReBody-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="44">
+          <input offset="0" semantic="JOINT" source="#poster__mReBody-mesh-joint" />
+          <input offset="1" semantic="WEIGHT" source="#poster__mReBody-mesh-weight" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Root" name="Root" sid="Root" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="poster__mReBody" name="poster__mReBody" type="NODE">
+        <instance_controller url="#Armature_poster__mReBody-mesh">
+          <skeleton>#Armature_Root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mReBody" target="#mReBody" />
+              <bind_vertex_input input_semantic="TEXCOORD" input_set="0" semantic="CHANNEL0" />
+              <bind_vertex_input input_semantic="TEXCOORD" input_set="1" semantic="CHANNEL1" />
+              <bind_vertex_input input_semantic="TEXCOORD" input_set="2" semantic="CHANNEL2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
