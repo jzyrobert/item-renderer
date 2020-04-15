@@ -33,6 +33,11 @@ extend({ OrbitControls, TrackballControls })
 
 function Item({ url }) {
   const collada = useLoader(ColladaLoader, url)
+  collada.scene.traverse(function (node) {
+    if (node.material) {
+      node.material.side = THREE.DoubleSide
+    }
+  })
   var box = new THREE.Box3().setFromObject(collada.scene);
   var height = box.max.y - box.min.y;
   const width = box.max.x - box.min.x
@@ -44,7 +49,7 @@ function Item({ url }) {
   const ymove = scaling * height / 2
   return (
     <mesh scale={[scaling, scaling, scaling]}
-    position={[0, -ymove, 0]}
+      position={[0, -ymove, 0]}
     >
       <primitive object={collada.scene} dispose={null} />
     </mesh>
