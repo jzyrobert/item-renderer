@@ -16,10 +16,17 @@ function getFileName(item, body, fabric) {
   if (item === null) {
     return ""
   }
-  if (body === "" && fabric === "") {
+  if (body === null && fabric === null) {
     return process.env.PUBLIC_URL + modelfolder + "/" + item.file + "/" + item.file + ".dae"
   }
-  return process.env.PUBLIC_URL + modelfolder + "/" + item.file + "/" + body.slice(-5) + fabric.slice(-7) + ".dae"
+  var variationName = ""
+  if (body !== null) {
+    variationName += body.file.slice(-5)
+  }
+  if (fabric !== null) {
+    variationName += fabric.file.slice(-7)
+  }
+  return process.env.PUBLIC_URL + modelfolder + "/" + item.file + "/" + variationName + ".dae"
 }
 
 extend({ OrbitControls, TrackballControls })
@@ -46,7 +53,6 @@ function Item({ url }) {
 
 function Scene({ url, hasChanged }) {
   const { camera, gl: { domElement } } = useThree()
-  console.log(hasChanged)
   if (hasChanged) {
     camera.position.set(0, 0, 5)
     camera.rotation.set(0, 0, 0)
@@ -63,8 +69,8 @@ function Scene({ url, hasChanged }) {
 
 function ModelViewer() {
   const [currentItem, setItem] = useState(null);
-  const [currentBody, setBody] = useState("");
-  const [currentFabric, setFabric] = useState("");
+  const [currentBody, setBody] = useState(null);
+  const [currentFabric, setFabric] = useState(null);
   const [itemChanged, setItemChanged] = useState(false);
   return (
     <>
@@ -83,12 +89,12 @@ function ModelViewer() {
             if (v?.body_variations?.length > 0) {
               setBody(v.body_variations[0])
             } else {
-              setBody("")
+              setBody(null)
             }
             if (v?.fabric_variations?.length > 0) {
               setFabric(v.fabric_variations[0])
             } else {
-              setFabric("")
+              setFabric(null)
             }
           }}
           p={2}
@@ -111,7 +117,7 @@ function ModelViewer() {
             p={2}
             id="body-list"
             options={currentItem.body_variations}
-            getOptionLabel={(op) => op.slice(-5)}
+            getOptionLabel={(op) => op.name}
             style={{ width: 300, display: 'flex', justifyContent: 'center', alignItems: 'center' }}
             renderInput={(params) => <TextField {...params} label="Body variation" variant="outlined" />}
           />
@@ -129,7 +135,7 @@ function ModelViewer() {
             p={2}
             id="fabric-list"
             options={currentItem.fabric_variations}
-            getOptionLabel={(op) => op.slice(-7)}
+            getOptionLabel={(op) => op.name}
             style={{ width: 300, display: 'flex', justifyContent: 'center', alignItems: 'center' }}
             renderInput={(params) => <TextField {...params} label="Fabric variation" variant="outlined" />}
           />
