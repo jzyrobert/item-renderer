@@ -1,0 +1,333 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="mBody_Alb">
+      <init_from>mBody_Alb.png</init_from>
+    </image>
+    <image id="mBody_Mix">
+      <init_from>mBody_Mix.png</init_from>
+    </image>
+    <image id="mBody_Nrm">
+      <init_from>mBody_Nrm.png</init_from>
+    </image>
+    <image id="mFrame_Alb">
+      <init_from>mFrame_Alb.png</init_from>
+    </image>
+    <image id="mFrame_Mix">
+      <init_from>mFrame_Mix.png</init_from>
+    </image>
+    <image id="mFrame_Nrm">
+      <init_from>mFrame_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="mBody">
+      <instance_effect url="#Effect_mBody" />
+    </material>
+    <material id="mFrame">
+      <instance_effect url="#Effect_mFrame" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_mBody">
+      <profile_COMMON>
+        <newparam sid="surface_mBody-diffuse">
+          <surface type="2D">
+            <init_from>mBody_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mBody-diffuse">
+          <sampler2D>
+            <source>surface_mBody-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_mBody-bump">
+          <surface type="2D">
+            <init_from>mBody_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mBody-bump">
+          <sampler2D>
+            <source>surface_mBody-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_mBody-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_mBody-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_mFrame">
+      <profile_COMMON>
+        <newparam sid="surface_mFrame-diffuse">
+          <surface type="2D">
+            <init_from>mFrame_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mFrame-diffuse">
+          <sampler2D>
+            <source>surface_mFrame-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_mFrame-bump">
+          <surface type="2D">
+            <init_from>mFrame_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mFrame-bump">
+          <sampler2D>
+            <source>surface_mFrame-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_mFrame-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_mFrame-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="FtrArtPearlEarring__mBody-mesh" name="FtrArtPearlEarring__mBody">
+      <mesh>
+        <source id="FtrArtPearlEarring__mBody-position">
+          <float_array id="FtrArtPearlEarring__mBody-position-array" count="12">-2.632501 -3.037501 0.3 2.632501 -3.037501 0.3 -2.632501 3.037501 0.3 2.632501 3.037501 0.3</float_array>
+          <technique_common>
+            <accessor source="#FtrArtPearlEarring__mBody-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FtrArtPearlEarring__mBody-normal">
+          <float_array id="FtrArtPearlEarring__mBody-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#FtrArtPearlEarring__mBody-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FtrArtPearlEarring__mBody-texcoord">
+          <float_array id="FtrArtPearlEarring__mBody-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#FtrArtPearlEarring__mBody-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FtrArtPearlEarring__mBody-vertex">
+          <input semantic="POSITION" source="#FtrArtPearlEarring__mBody-position" />
+        </vertices>
+        <triangles material="mBody" count="2">
+          <input semantic="VERTEX" source="#FtrArtPearlEarring__mBody-vertex" offset="0" />
+          <input semantic="NORMAL" source="#FtrArtPearlEarring__mBody-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#FtrArtPearlEarring__mBody-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Gold__mFrame-mesh" name="Gold__mFrame">
+      <mesh>
+        <source id="Gold__mFrame-position">
+          <float_array id="Gold__mFrame-position-array" count="579">-2.990834 3.437501 0.4586129 -3.032501 3.395833 0.4586129 -2.932521 3.337521 0.5000201 2.990834 3.437501 0.4586128 2.932521 3.337521 0.50002 3.032501 3.395833 0.4586128 -2.990834 -3.437501 0.4586128 -2.932521 -3.337521 0.50002 -3.032501 -3.395833 0.4586128 3.032501 -3.395833 0.4586129 2.932521 -3.337521 0.5000201 2.990834 -3.437501 0.4586129 -2.990834 -3.437501 0.4586128 -2.990834 -3.437501 0 2.990834 -3.437501 0.4586129 2.990834 -3.437501 0 3.032501 -3.395833 0.4586129 3.032501 -3.395833 0 3.032501 3.395833 0.4586128 3.032501 3.395833 0 2.990834 3.437501 0.4586128 2.990834 3.437501 0 -2.990834 3.437501 0.4586129 -2.990834 3.437501 0 -3.032501 3.395833 0.4586129 -3.032501 3.395833 0 -3.032501 -3.395833 0.4586128 -3.032501 -3.395833 0 3.032501 3.395833 0 2.990834 3.437501 0 3.032501 3.395833 0.4586128 2.990834 3.437501 0.4586128 2.990834 -3.437501 0 3.032501 -3.395833 0 2.990834 -3.437501 0.4586129 3.032501 -3.395833 0.4586129 -3.032501 -3.395833 0 -2.990834 -3.437501 0 -3.032501 -3.395833 0.4586128 -2.990834 -3.437501 0.4586128 -2.990834 3.437501 0 -3.032501 3.395833 0 -2.990834 3.437501 0.4586129 -3.032501 3.395833 0.4586129 0.5601969 3.067495 -0.2331206 0.5601969 3.336649 -0.2331206 0.5601969 3.067495 -0.07758451 0.5601969 3.336649 -0.07758451 -0.460222 3.067495 -0.1208725 -0.460222 3.336649 -0.1208725 -0.460222 3.067495 0.00549233 -0.460222 3.336649 0.00549233 -0.5601969 3.067495 -0.2331206 -0.5601969 3.067495 -0.07758451 -0.5601969 3.336649 -0.2331206 -0.5601969 3.336649 -0.07758451 -0.8366747 3.336649 -0.07758451 -0.8366747 3.067495 -0.07758451 -0.8366747 3.336649 0.00549233 -0.8366747 3.067495 0.00549233 0.460222 3.067495 -0.1208725 0.460222 3.067495 0.00549233 0.460222 3.336649 -0.1208725 0.460222 3.336649 0.00549233 0.8366747 3.067495 -0.07758451 0.8366747 3.336649 -0.07758451 0.8366747 3.067495 0.00549233 0.8366747 3.336649 0.00549233 -0.5601969 3.336649 -0.07758451 -0.5601969 3.067495 -0.07758451 -0.8366747 3.336649 -0.07758451 -0.8366747 3.067495 -0.07758451 0.5601969 3.067495 -0.07758451 0.5601969 3.336649 -0.07758451 0.8366747 3.067495 -0.07758451 0.8366747 3.336649 -0.07758451 -2.990834 -3.437501 0.4586128 2.990834 -3.437501 0.4586129 2.932521 -3.337521 0.5000201 -2.932521 -3.337521 0.50002 2.832521 -3.237521 0.4 -2.832521 -3.237521 0.4 2.732501 -3.137501 0.4 -2.732501 -3.137501 0.4 -2.632501 -3.037501 0.3 2.632501 -3.037501 0.3 3.032501 -3.395833 0.4586129 3.032501 3.395833 0.4586128 2.932521 3.337521 0.50002 2.932521 -3.337521 0.5000201 2.832521 3.237521 0.4 2.832521 -3.237521 0.4 2.732501 3.137501 0.4 2.732501 -3.137501 0.4 2.632501 -3.037501 0.3 2.632501 3.037501 0.3 -3.032501 -3.395833 0.4586128 -2.932521 -3.337521 0.50002 -3.032501 3.395833 0.4586129 -2.932521 3.337521 0.5000201 -2.832521 -3.237521 0.4 -2.832521 3.237521 0.4 -2.732501 -3.137501 0.4 -2.732501 3.137501 0.4 -2.632501 3.037501 0.3 -2.632501 -3.037501 0.3 -2.990834 3.437501 0.4586129 -2.932521 3.337521 0.5000201 2.990834 3.437501 0.4586128 2.932521 3.337521 0.50002 -2.832521 3.237521 0.4 2.832521 3.237521 0.4 -2.732501 3.137501 0.4 2.732501 3.137501 0.4 2.632501 3.037501 0.3 -2.632501 3.037501 0.3 0.460222 3.336649 -0.1208725 0.3826568 3.067495 -0.1208725 0.460222 3.067495 -0.1208725 0.2551044 3.16977 -0.1208725 0 3.16977 -0.1208725 0.1275523 3.067495 -0.1208725 -0.460222 3.336649 -0.1208725 -0.2551044 3.16977 -0.1208725 -0.1275523 3.067495 -0.1208725 -0.3826568 3.067495 -0.1208725 -0.460222 3.067495 -0.1208725 0.5601969 3.336649 -0.2331206 0.5601969 3.067495 -0.2331206 0.3826575 3.067495 -0.2331206 0.255105 3.16977 -0.2331206 0 3.16977 -0.2331206 0.1275525 3.067495 -0.2331206 -0.5601969 3.336649 -0.2331206 -0.255105 3.16977 -0.2331206 -0.1275525 3.067495 -0.2331206 -0.3826575 3.067495 -0.2331206 -0.5601969 3.067495 -0.2331206 0.5601969 3.067495 -0.07758451 0.8366747 3.067495 -0.07758451 0.8366747 3.067495 0.00549233 0.460222 3.067495 0.00549233 0.460222 3.067495 -0.1208725 0.5601969 3.067495 -0.2331206 0.3826575 3.067495 -0.2331206 0.3826568 3.067495 -0.1208725 0.255105 3.16977 -0.2331206 0.2551044 3.16977 -0.1208725 0.1275525 3.067495 -0.2331206 0.1275523 3.067495 -0.1208725 0 3.16977 -0.2331206 0 3.16977 -0.1208725 -0.1275525 3.067495 -0.2331206 -0.1275523 3.067495 -0.1208725 -0.255105 3.16977 -0.2331206 -0.2551044 3.16977 -0.1208725 -0.3826575 3.067495 -0.2331206 -0.3826568 3.067495 -0.1208725 -0.460222 3.067495 -0.1208725 -0.5601969 3.067495 -0.2331206 -0.5601969 3.067495 -0.07758451 -0.460222 3.067495 0.00549233 -0.8366747 3.067495 0.00549233 -0.8366747 3.067495 -0.07758451 -0.5601969 3.336649 -0.07758451 -0.8366747 3.336649 -0.07758451 -0.8366747 3.336649 0.00549233 -0.460222 3.336649 0.00549233 -0.460222 3.336649 -0.1208725 -0.5601969 3.336649 -0.2331206 0.5601969 3.336649 -0.2331206 0.460222 3.336649 -0.1208725 0.5601969 3.336649 -0.07758451 0.460222 3.336649 0.00549233 0.8366747 3.336649 0.00549233 0.8366747 3.336649 -0.07758451 -2.516272 -2.957177 0 0 0 0.3626983 2.516272 -2.957177 0 -2.516272 2.957177 0 2.516272 2.957177 0 3.032501 3.395833 0 2.516272 2.957177 0 2.990834 3.437501 0 3.032501 -3.395833 0 -2.990834 3.437501 0 2.516272 -2.957177 0 -2.516272 2.957177 0 2.990834 -3.437501 0 -3.032501 3.395833 0 -2.990834 -3.437501 0 -3.032501 -3.395833 0 -2.516272 -2.957177 0</float_array>
+          <technique_common>
+            <accessor source="#Gold__mFrame-position-array" count="193" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gold__mFrame-normal">
+          <float_array id="Gold__mFrame-normal-array" count="579">-0.2446184 0.2446184 0.9373777 -0.2446184 0.2446184 0.9373777 -0.2446184 0.2446184 0.9373777 0.2446184 0.2446184 0.9373777 0.2446184 0.2446184 0.9373777 0.2446184 0.2446184 0.9373777 -0.2446184 -0.2446184 0.9373777 -0.2446184 -0.2446184 0.9373777 -0.2446184 -0.2446184 0.9373777 0.2446184 -0.2446184 0.9373777 0.2446184 -0.2446184 0.9373777 0.2446184 -0.2446184 0.9373777 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.3835616 0.9236791 0 -0.3835616 0.9236791 0 -0.3835616 0.9236791 0 -0.3835616 0.9236791 0 0 1 0 0 1 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0.3835616 0 0.9236791 0.3835616 0 0.9236791 0.3835616 0 0.9236791 0.3835616 0 0.9236791 0 0 1 0 0 1 -0.7064579 0 0.7064579 0 0.7064579 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.3835616 0 0.9236791 0.7064579 0 0.7064579 -0.3835616 0 0.9236791 0.7064579 0 0.7064579 0 0 1 0 0 1 0 0.7064579 0.7064579 0 -0.7064579 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0 0.3835616 0.9236791 0 -0.7064579 0.7064579 0 0.3835616 0.9236791 0 -0.7064579 0.7064579 0 0 1 0 0 1 0 -0.7064579 0.7064579 -0.7064579 0 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.37182 -0.9275929 0 -0.37182 -0.9275929 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.37182 -0.9275929 0 0.37182 -0.9275929 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.06457926 0.0665362 -0.9960861 0 0 -1 -0.06457926 0.0665362 -0.9960861 0.06457926 -0.0665362 -0.9960861 -0.06457926 -0.0665362 -0.9960861 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Gold__mFrame-normal-array" count="193" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gold__mFrame-texcoord">
+          <float_array id="Gold__mFrame-texcoord-array" count="386">0.06514076 0.7431449 0.06092928 0.7384756 0.07248035 0.73225 0.1876097 0.008133054 0.1949493 0.01904327 0.1833829 0.0128023 0.06514076 0.008133054 0.07248035 0.01904327 0.06092928 0.0128023 0.1833829 0.7384756 0.1949493 0.73225 0.1876097 0.7431449 0.6664683 0.8212253 0.6664683 0.870222 0.02734417 0.8212253 0.02734417 0.870222 0.1833829 0.7384756 0.1343862 0.7384756 0.1833829 0.0128023 0.1343862 0.0128023 0.02986191 0.9345846 0.02986191 0.8859236 0.6645304 0.9345846 0.6645304 0.8859236 0.06092928 0.7384756 0.0119173 0.7384756 0.06092928 0.0128023 0.0119173 0.0128023 0.1343862 0.0128023 0.1343862 0.006515622 0.1833829 0.0128023 0.1833829 0.006515622 0.1343862 0.7447776 0.1343862 0.7384756 0.1833829 0.7447776 0.1833829 0.7384756 0.0119173 0.0128023 0.0119173 0.006515622 0.06092928 0.0128023 0.06092928 0.006515622 0.0119173 0.7447776 0.0119173 0.7384756 0.06092928 0.7447776 0.06092928 0.7384756 0.7714962 0.8844739 0.7714962 0.9249867 0.7480888 0.8844739 0.7480888 0.9249867 0.9424887 0.6251469 0.9424887 0.6656443 0.923476 0.6251469 0.923476 0.6656443 0.9401084 0.8844739 0.9635157 0.8844739 0.9401084 0.9249867 0.9635157 0.9249867 0.9764706 0.5684901 0.9359732 0.5684901 0.9764706 0.555993 0.9359732 0.555993 0.9424887 0.7636683 0.923476 0.7636683 0.9424887 0.7231556 0.923476 0.7231556 0.9359732 0.8203098 0.9764706 0.8203098 0.9359732 0.8328221 0.9764706 0.8328221 0.9764706 0.6101015 0.9359732 0.6101015 0.9764706 0.5684901 0.9359732 0.5684901 0.9359732 0.7787136 0.9764706 0.7787136 0.9359732 0.8203098 0.9764706 0.8203098 0.6664683 0.8212253 0.02734417 0.8212253 0.03356985 0.8096589 0.6602426 0.8096589 0.04426642 0.7945526 0.6495613 0.7945526 0.05494774 0.783856 0.63888 0.783856 0.6281987 0.7687495 0.06562905 0.7687495 0.1833829 0.7384756 0.1833829 0.0128023 0.1949493 0.01904327 0.1949493 0.73225 0.2100557 0.0297246 0.2100557 0.7215686 0.2207523 0.04040587 0.2207523 0.7108873 0.2358587 0.700206 0.2358587 0.0510872 0.06092928 0.0128023 0.07248035 0.01904327 0.06092928 0.7384756 0.07248035 0.73225 0.08760204 0.0297246 0.08760204 0.7215686 0.09828336 0.04040587 0.09828336 0.7108873 0.1133898 0.700206 0.1133898 0.0510872 0.6645304 0.9345846 0.6583505 0.9460746 0.02986191 0.9345846 0.03605707 0.9460746 0.6477302 0.9610742 0.04666209 0.9610742 0.6371252 0.9716793 0.05726711 0.9716793 0.06788739 0.9866942 0.6265202 0.9866942 0.7865415 0.9418784 0.7982147 0.9823759 0.7865415 0.9823759 0.8174105 0.9669795 0.8558022 0.9669795 0.8366064 0.9823759 0.925063 0.9418784 0.8941939 0.9669795 0.8749981 0.9823759 0.9133898 0.9823759 0.925063 0.9823759 0.7714962 0.9249867 0.7714962 0.8844739 0.7982147 0.8844739 0.8174105 0.8998703 0.8558022 0.8998703 0.8366064 0.8844739 0.9401084 0.9249867 0.8941939 0.8998703 0.8749981 0.8844739 0.9133898 0.8844739 0.9401084 0.8844739 0.9359732 0.7787136 0.9359732 0.8203098 0.923476 0.8203098 0.923476 0.7636683 0.9424887 0.7636683 0.9593805 0.7787136 0.9593805 0.7519951 0.9424887 0.7519951 0.9593805 0.7327993 0.9424887 0.7327993 0.9593805 0.7136034 0.9424887 0.7136034 0.9593805 0.6944076 0.9424887 0.6944076 0.9593805 0.6752117 0.9424887 0.6752117 0.9593805 0.6560159 0.9424887 0.6560159 0.9593805 0.63682 0.9424887 0.63682 0.9424887 0.6251469 0.9593805 0.6101015 0.9359732 0.6101015 0.923476 0.6251469 0.923476 0.5684901 0.9359732 0.5684901 0.9401084 0.948394 0.9817197 0.948394 0.9817197 0.9608911 0.925063 0.9608911 0.925063 0.9418784 0.9401084 0.9249867 0.7714962 0.9249867 0.7865415 0.9418784 0.7714962 0.948394 0.7865415 0.9608911 0.7299001 0.9608911 0.7299001 0.948394 0.8500191 0.05998319 0.5800107 0.3768978 0.309987 0.05998319 0.8500191 0.6938277 0.309987 0.6938277 0.2547951 0.740734 0.309987 0.6938277 0.2591898 0.7451743 0.2547951 0.0130617 0.9008164 0.7451743 0.309987 0.05998319 0.8500191 0.6938277 0.259205 0.008621335 0.905211 0.740734 0.9008011 0.008636594 0.905211 0.0130617 0.8500191 0.05998319</float_array>
+          <technique_common>
+            <accessor source="#Gold__mFrame-texcoord-array" count="193" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Gold__mFrame-vertex">
+          <input semantic="POSITION" source="#Gold__mFrame-position" />
+        </vertices>
+        <triangles material="mFrame" count="136">
+          <input semantic="VERTEX" source="#Gold__mFrame-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Gold__mFrame-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Gold__mFrame-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 8 8 8 9 9 9 10 10 10 11 11 11 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 40 40 40 41 41 41 42 42 42 41 41 41 43 43 43 42 42 42 44 44 44 45 45 45 46 46 46 45 45 45 47 47 47 46 46 46 48 48 48 49 49 49 50 50 50 49 49 49 51 51 51 50 50 50 52 52 52 53 53 53 54 54 54 53 53 53 55 55 55 54 54 54 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 64 64 64 65 65 65 66 66 66 65 65 65 67 67 67 66 66 66 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 72 72 72 73 73 73 74 74 74 73 73 73 75 75 75 74 74 74 76 76 76 77 77 77 78 78 78 79 79 79 76 76 76 78 78 78 79 79 79 78 78 78 80 80 80 81 81 81 79 79 79 80 80 80 81 81 81 80 80 80 82 82 82 83 83 83 81 81 81 82 82 82 84 84 84 83 83 83 82 82 82 85 85 85 84 84 84 82 82 82 86 86 86 87 87 87 88 88 88 89 89 89 86 86 86 88 88 88 89 89 89 88 88 88 90 90 90 91 91 91 89 89 89 90 90 90 91 91 91 90 90 90 92 92 92 93 93 93 91 91 91 92 92 92 94 94 94 93 93 93 92 92 92 95 95 95 94 94 94 92 92 92 96 96 96 97 97 97 98 98 98 97 97 97 99 99 99 98 98 98 97 97 97 100 100 100 99 99 99 100 100 100 101 101 101 99 99 99 101 101 101 100 100 100 102 102 102 103 103 103 101 101 101 102 102 102 104 104 104 103 103 103 102 102 102 105 105 105 104 104 104 102 102 102 106 106 106 107 107 107 108 108 108 107 107 107 109 109 109 108 108 108 109 109 109 107 107 107 110 110 110 111 111 111 109 109 109 110 110 110 111 111 111 110 110 110 112 112 112 113 113 113 111 111 111 112 112 112 114 114 114 113 113 113 112 112 112 115 115 115 114 114 114 112 112 112 116 116 116 117 117 117 118 118 118 117 117 117 116 116 116 119 119 119 119 119 119 116 116 116 120 120 120 119 119 119 120 120 120 121 121 121 116 116 116 122 122 122 120 120 120 120 120 120 123 123 123 124 124 124 120 120 120 122 122 122 123 123 123 123 123 123 122 122 122 125 125 125 125 125 125 122 122 122 126 126 126 127 127 127 128 128 128 129 129 129 127 127 127 129 129 129 130 130 130 131 131 131 127 127 127 130 130 130 131 131 131 130 130 130 132 132 132 133 133 133 127 127 127 131 131 131 134 134 134 131 131 131 135 135 135 134 134 134 133 133 133 131 131 131 133 133 133 134 134 134 136 136 136 133 133 133 136 136 136 137 137 137 138 138 138 139 139 139 140 140 140 141 141 141 138 138 138 140 140 140 141 141 141 142 142 142 138 138 138 142 142 142 143 143 143 138 138 138 143 143 143 142 142 142 144 144 144 142 142 142 145 145 145 144 144 144 144 144 144 145 145 145 146 146 146 145 145 145 147 147 147 146 146 146 146 146 146 147 147 147 148 148 148 147 147 147 149 149 149 148 148 148 148 148 148 149 149 149 150 150 150 149 149 149 151 151 151 150 150 150 150 150 150 151 151 151 152 152 152 151 151 151 153 153 153 152 152 152 152 152 152 153 153 153 154 154 154 153 153 153 155 155 155 154 154 154 154 154 154 155 155 155 156 156 156 155 155 155 157 157 157 156 156 156 157 157 157 158 158 158 156 156 156 158 158 158 159 159 159 156 156 156 159 159 159 158 158 158 160 160 160 158 158 158 161 161 161 160 160 160 161 161 161 162 162 162 160 160 160 162 162 162 163 163 163 160 160 160 164 164 164 165 165 165 166 166 166 167 167 167 164 164 164 166 166 166 164 164 164 167 167 167 168 168 168 169 169 169 164 164 164 168 168 168 170 170 170 169 169 169 168 168 168 171 171 171 170 170 170 168 168 168 172 172 172 170 170 170 171 171 171 173 173 173 172 172 172 171 171 171 173 173 173 174 174 174 172 172 172 174 174 174 175 175 175 172 172 172 176 176 176 177 177 177 178 178 178 179 179 179 177 177 177 176 176 176 177 177 177 180 180 180 178 178 178 179 179 179 180 180 180 177 177 177 181 181 181 182 182 182 183 183 183 181 181 181 184 184 184 182 182 182 183 183 183 182 182 182 185 185 185 184 184 184 186 186 186 182 182 182 182 182 182 187 187 187 185 185 185 186 186 186 184 184 184 188 188 188 185 185 185 187 187 187 189 189 189 186 186 186 188 188 188 190 190 190 189 189 189 187 187 187 191 191 191 192 192 192 186 186 186 190 190 190 187 187 187 192 192 192 191 191 191 192 192 192 190 190 190 191 191 191 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_FtrArtPearlEarring__mBody-mesh">
+      <skin source="#FtrArtPearlEarring__mBody-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="FtrArtPearlEarring__mBody-mesh-joint">
+          <Name_array id="FtrArtPearlEarring__mBody-mesh-joint-array" count="1">Root</Name_array>
+          <technique_common>
+            <accessor source="#FtrArtPearlEarring__mBody-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FtrArtPearlEarring__mBody-mesh-inv_bind_matrix">
+          <float_array id="FtrArtPearlEarring__mBody-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#FtrArtPearlEarring__mBody-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FtrArtPearlEarring__mBody-mesh-weight">
+          <float_array id="FtrArtPearlEarring__mBody-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#FtrArtPearlEarring__mBody-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#FtrArtPearlEarring__mBody-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#FtrArtPearlEarring__mBody-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#FtrArtPearlEarring__mBody-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#FtrArtPearlEarring__mBody-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Gold__mFrame-mesh">
+      <skin source="#Gold__mFrame-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Gold__mFrame-mesh-joint">
+          <Name_array id="Gold__mFrame-mesh-joint-array" count="1">Root</Name_array>
+          <technique_common>
+            <accessor source="#Gold__mFrame-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gold__mFrame-mesh-inv_bind_matrix">
+          <float_array id="Gold__mFrame-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Gold__mFrame-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Gold__mFrame-mesh-weight">
+          <float_array id="Gold__mFrame-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Gold__mFrame-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Gold__mFrame-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Gold__mFrame-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="193">
+          <input semantic="JOINT" source="#Gold__mFrame-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Gold__mFrame-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Root" name="Root" sid="Root" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_PictureBindPosition" name="PictureBindPosition" sid="PictureBindPosition" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 -3.437501 0 0 1 0 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+      <node id="FtrArtPearlEarring__mBody" name="FtrArtPearlEarring__mBody" type="NODE">
+        <instance_controller url="#Armature_FtrArtPearlEarring__mBody-mesh">
+          <skeleton>#Armature_Root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mBody" target="#mBody" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Gold__mFrame" name="Gold__mFrame" type="NODE">
+        <instance_controller url="#Armature_Gold__mFrame-mesh">
+          <skeleton>#Armature_Root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mFrame" target="#mFrame" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
