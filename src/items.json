@@ -1,5 +1,250 @@
 [
     {
+        "name": "Scenic Painting",
+        "id": "2",
+        "file": "FtrArtHunterSnow",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Graceful Painting",
+        "id": "5",
+        "file": "FtrArtMikaeriFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Graceful Painting",
+        "id": "6",
+        "file": "FtrArtMikaeri",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Quaint Painting",
+        "id": "9",
+        "file": "FtrArtMilkmaidFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Quaint Painting",
+        "id": "10",
+        "file": "FtrArtMilkmaid",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Basic Painting",
+        "id": "13",
+        "file": "FtrArtBlueBoyFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Basic Painting",
+        "id": "14",
+        "file": "FtrArtBlueBoy",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Famous Painting",
+        "id": "17",
+        "file": "FtrArtMonaLisaFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Famous Painting",
+        "id": "18",
+        "file": "FtrArtMonaLisa",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Perfect Painting",
+        "id": "20",
+        "file": "FtrArtAppleOrange",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Serene Painting",
+        "id": "23",
+        "file": "FtrArtPortraitCeciliaFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Serene Painting",
+        "id": "24",
+        "file": "FtrArtPortraitCecilia",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wistful Painting",
+        "id": "27",
+        "file": "FtrArtPearlEarringFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wistful Painting",
+        "id": "28",
+        "file": "FtrArtPearlEarring",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Moving Painting",
+        "id": "31",
+        "file": "FtrArtBirthVenusFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Moving Painting",
+        "id": "32",
+        "file": "FtrArtBirthVenus",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Warm Painting",
+        "id": "34",
+        "file": "FtrArtClothedMaja",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Dynamic Painting",
+        "id": "38",
+        "file": "FtrArtKanagawaOki",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Jolly Painting",
+        "id": "41",
+        "file": "FtrArtSummerFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Jolly Painting",
+        "id": "42",
+        "file": "FtrArtSummer",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Common Painting",
+        "id": "44",
+        "file": "FtrArtGleaners",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Proper Painting",
+        "id": "46",
+        "file": "FtrArtBarFB",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Nice Painting",
+        "id": "48",
+        "file": "FtrArtFifePlayer",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Flowery Painting",
+        "id": "50",
+        "file": "FtrArtSunflower",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Moody Painting",
+        "id": "52",
+        "file": "FtrArtSlower",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Amazing Painting",
+        "id": "55",
+        "file": "FtrArtNightWatchFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Amazing Painting",
+        "id": "56",
+        "file": "FtrArtNightWatch",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Scary Painting",
+        "id": "65",
+        "file": "FtrArtOotaniOnijiFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Scary Painting",
+        "id": "66",
+        "file": "FtrArtOotaniOniji",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Worthy Painting",
+        "id": "68",
+        "file": "FtrArtLibertyLeading",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Solemn Painting",
+        "id": "71",
+        "file": "FtrArtLasMeninasFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Solemn Painting",
+        "id": "72",
+        "file": "FtrArtLasMeninas",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wild Painting Right Half",
+        "id": "75",
+        "file": "FtrArtFuujinFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wild Painting Right Half",
+        "id": "76",
+        "file": "FtrArtFuujin",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Calm Painting",
+        "id": "78",
+        "file": "FtrArtSundayOn",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
         "name": "Clackercart",
         "id": "80",
         "file": "FtrKatakataToy",
@@ -4323,6 +4568,111 @@
         "fabric_variations": []
     },
     {
+        "name": "Motherly Statue",
+        "id": "1331",
+        "file": "FtrSculptureCapitolini",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Motherly Statue",
+        "id": "1332",
+        "file": "FtrSculptureCapitoliniFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Gallant Statue",
+        "id": "1333",
+        "file": "FtrSculptureDavid",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Gallant Statue",
+        "id": "1334",
+        "file": "FtrSculptureDavidFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Robust Statue",
+        "id": "1335",
+        "file": "FtrSculptureDiskobolos",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Robust Statue",
+        "id": "1336",
+        "file": "FtrSculptureDiskobolosFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Ancient Statue",
+        "id": "1337",
+        "file": "FtrSculptureDoguu",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Ancient Statue",
+        "id": "1338",
+        "file": "FtrSculptureDoguuFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Great Statue",
+        "id": "1339",
+        "file": "FtrSculptureKamehameha",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Beautiful Statue",
+        "id": "1341",
+        "file": "FtrSculptureMilo",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Beautiful Statue",
+        "id": "1342",
+        "file": "FtrSculptureMiloFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Mystic Statue",
+        "id": "1343",
+        "file": "FtrSculptureNefertiti",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Mystic Statue",
+        "id": "1344",
+        "file": "FtrSculptureNefertitiFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Valiant Statue",
+        "id": "1345",
+        "file": "FtrSculptureSamothrace",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Valiant Statue",
+        "id": "1346",
+        "file": "FtrSculptureSamothraceFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
         "name": "Hamster Cage",
         "id": "1348",
         "file": "FtrHamstercage",
@@ -7554,6 +7904,20 @@
         "fabric_variations": []
     },
     {
+        "name": "Red Cosmos",
+        "id": "2304",
+        "file": "FtrPltFlwCosmosVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "White Cosmos",
+        "id": "2305",
+        "file": "FtrPltFlwCosmosVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
         "name": "Drinking Fountain",
         "id": "2319",
         "file": "FtrDrinkingfountain",
@@ -7699,6 +8063,643 @@
                 "name": "Green logo"
             }
         ],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Chorale",
+        "id": "2405",
+        "file": "FtrMjkSanbika",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. March",
+        "id": "2406",
+        "file": "FtrMjkMarch",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Waltz",
+        "id": "2407",
+        "file": "FtrMjkWaltz",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Swing",
+        "id": "2408",
+        "file": "FtrMjkSwing",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Jazz",
+        "id": "2409",
+        "file": "FtrMjkJazz",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Fusion",
+        "id": "2410",
+        "file": "FtrMjkFusion",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. \u00c9tude",
+        "id": "2411",
+        "file": "FtrMjkEtude",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Lullaby",
+        "id": "2412",
+        "file": "FtrMjkLullaby",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Aria",
+        "id": "2413",
+        "file": "FtrMjkMaria",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Samba",
+        "id": "2414",
+        "file": "FtrMjkSamba",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Bossa",
+        "id": "2415",
+        "file": "FtrMjkBossa",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Calypso",
+        "id": "2416",
+        "file": "FtrMjkCaripso",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Salsa",
+        "id": "2417",
+        "file": "FtrMjkSalsa",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Mambo",
+        "id": "2418",
+        "file": "FtrMjkMambo",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Reggae",
+        "id": "2419",
+        "file": "FtrMjkReggae",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Ska",
+        "id": "2420",
+        "file": "FtrMjkSka",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Tango",
+        "id": "2421",
+        "file": "FtrMjkTango",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Faire",
+        "id": "2422",
+        "file": "FtrMjkHaisai",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Aloha K.K.",
+        "id": "2423",
+        "file": "FtrMjkAloha",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Lucky K.K.",
+        "id": "2424",
+        "file": "FtrMjkIrish",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Condor",
+        "id": "2425",
+        "file": "FtrMjkPeru",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Steppe",
+        "id": "2426",
+        "file": "FtrMjkCossack",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Imperial K.K.",
+        "id": "2427",
+        "file": "FtrMjkChina",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Casbah",
+        "id": "2428",
+        "file": "FtrMjkTurkey",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Safari",
+        "id": "2429",
+        "file": "FtrMjkAfro",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Folk",
+        "id": "2430",
+        "file": "FtrMjkMinyo",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Rock",
+        "id": "2431",
+        "file": "FtrMjkRock",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Rockin' K.K.",
+        "id": "2432",
+        "file": "FtrMjkRockenRoll",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Ragtime",
+        "id": "2433",
+        "file": "FtrMjkRagTime",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Gumbo",
+        "id": "2434",
+        "file": "FtrMjkNewOrleans",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "The K. Funk",
+        "id": "2435",
+        "file": "FtrMjkFunk",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Blues",
+        "id": "2436",
+        "file": "FtrMjkBlues",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Soulful K.K.",
+        "id": "2437",
+        "file": "FtrMjkGospel",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Soul",
+        "id": "2438",
+        "file": "FtrMjkSoul",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Cruisin'",
+        "id": "2439",
+        "file": "FtrMjkUrban",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Love Song",
+        "id": "2440",
+        "file": "FtrMjkLoveSong",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. D&B",
+        "id": "2441",
+        "file": "FtrMjkDrumnbass",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Technopop",
+        "id": "2442",
+        "file": "FtrMjkTechnoBeat",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Dj K.K.",
+        "id": "2443",
+        "file": "FtrMjkEuroBeat",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Only Me",
+        "id": "2444",
+        "file": "FtrMjkOnlyMe",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Country",
+        "id": "2445",
+        "file": "FtrMjkCountry",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Surfin' K.K.",
+        "id": "2446",
+        "file": "FtrMjkEleki",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Ballad",
+        "id": "2447",
+        "file": "FtrMjkBallad",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Comrade K.K.",
+        "id": "2448",
+        "file": "FtrMjkShowaKayo",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Lament",
+        "id": "2449",
+        "file": "FtrMjkEnka",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Go K.K. Rider",
+        "id": "2450",
+        "file": "FtrMjkKekeRider",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Dirge",
+        "id": "2451",
+        "file": "FtrMjkKowaiUta",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Western",
+        "id": "2452",
+        "file": "FtrMjkWestern",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Mr. K.K.",
+        "id": "2453",
+        "file": "FtrMjkSensei",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Caf\u00e9 K.K.",
+        "id": "2454",
+        "file": "FtrMjkParis",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Parade",
+        "id": "2455",
+        "file": "FtrMjkParade",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Mariachi",
+        "id": "2456",
+        "file": "FtrMjkSenor",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Song",
+        "id": "2457",
+        "file": "FtrMjkKekeSong",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "I Love You",
+        "id": "2458",
+        "file": "FtrMjkDaisuki",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Two Days Ago",
+        "id": "2459",
+        "file": "FtrMjkOtotoi",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "My Place",
+        "id": "2460",
+        "file": "FtrMjkBokuNoBasho",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Forest Life",
+        "id": "2461",
+        "file": "FtrMjkMoriNoSeikatsu",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "To The Edge",
+        "id": "2462",
+        "file": "FtrMjkNamiNami",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Pondering",
+        "id": "2463",
+        "file": "FtrMjkKangaeChu",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Dixie",
+        "id": "2464",
+        "file": "FtrMjkDixie",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Marathon",
+        "id": "2465",
+        "file": "FtrMjkGamelan",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "King K.K.",
+        "id": "2466",
+        "file": "FtrMjkDaimyo",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Mountain Song",
+        "id": "2467",
+        "file": "FtrMjkAlpine",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Marine Song 2001",
+        "id": "2468",
+        "file": "FtrMjkHunaUta2001",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Neapolitan",
+        "id": "2469",
+        "file": "FtrMjkNapolitan",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Steep Hill",
+        "id": "2470",
+        "file": "FtrMjkNiDanZaka",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Rockabilly",
+        "id": "2471",
+        "file": "FtrMjkKekeBilly",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Agent K.K.",
+        "id": "2472",
+        "file": "FtrMjkKeiji",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Rally",
+        "id": "2473",
+        "file": "FtrMjkOndo",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Metal",
+        "id": "2474",
+        "file": "FtrMjkMetal",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Stale Cupcakes",
+        "id": "2475",
+        "file": "FtrMjkBlueOnigiri",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Spring Blossoms",
+        "id": "2476",
+        "file": "FtrMjkHaruNoKomorebi",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wandering",
+        "id": "2477",
+        "file": "FtrMjkHoro",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. House",
+        "id": "2478",
+        "file": "FtrMjkHouse",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Sonata",
+        "id": "2479",
+        "file": "FtrMjkSonata",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Hypno K.K.",
+        "id": "2480",
+        "file": "FtrMjkUtataneNoYume",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Stroll",
+        "id": "2481",
+        "file": "FtrMjkOsanpo",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Island",
+        "id": "2482",
+        "file": "FtrMjkDoubutsuNoShima",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Space K.K.",
+        "id": "2483",
+        "file": "FtrMjkMinimal",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Adventure",
+        "id": "2484",
+        "file": "FtrMjkHollywood",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Oasis",
+        "id": "2485",
+        "file": "FtrMjkMaharaja",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Bazaar",
+        "id": "2486",
+        "file": "FtrMjkRoma",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Milonga",
+        "id": "2487",
+        "file": "FtrMjkMilonga",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Groove",
+        "id": "2488",
+        "file": "FtrMjkRaregroove",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Jongara",
+        "id": "2489",
+        "file": "FtrMjkJongara",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Flamenco",
+        "id": "2490",
+        "file": "FtrMjkFlamenco",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Moody",
+        "id": "2491",
+        "file": "FtrMjkBolero",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Bubblegum K.K.",
+        "id": "2492",
+        "file": "FtrMjkIdol",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Synth",
+        "id": "2493",
+        "file": "FtrMjkElectronica",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Disco",
+        "id": "2494",
+        "file": "FtrMjkDisco",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "K.K. Birthday",
+        "id": "2495",
+        "file": "FtrMjkBirthdaySong",
+        "body_variations": [],
         "fabric_variations": []
     },
     {
@@ -8096,6 +9097,13 @@
         "fabric_variations": []
     },
     {
+        "name": "\u30c0\u30df\u30fcDiy\u30ec\u30b7\u30d4",
+        "id": "2695",
+        "file": "FtrBookDIY",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
         "name": "Refrigerator",
         "id": "2713",
         "file": "FtrRefrigerator",
@@ -8356,6 +9364,230 @@
                 "name": "Black"
             }
         ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Yellow Cosmos",
+        "id": "2863",
+        "file": "FtrPltFlwCosmosVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Pink Cosmos",
+        "id": "2867",
+        "file": "FtrPltFlwCosmosVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Orange Cosmos",
+        "id": "2871",
+        "file": "FtrPltFlwCosmosVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Black Cosmos",
+        "id": "2875",
+        "file": "FtrPltFlwCosmosVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "White Tulips",
+        "id": "2879",
+        "file": "FtrPltFlwTulipVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Red Tulips",
+        "id": "2883",
+        "file": "FtrPltFlwTulipVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Yellow Tulips",
+        "id": "2887",
+        "file": "FtrPltFlwTulipVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Pink Tulips",
+        "id": "2891",
+        "file": "FtrPltFlwTulipVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Orange Tulips",
+        "id": "2895",
+        "file": "FtrPltFlwTulipVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Purple Tulips",
+        "id": "2899",
+        "file": "FtrPltFlwTulipVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Black Tulips",
+        "id": "2903",
+        "file": "FtrPltFlwTulipVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "White Pansies",
+        "id": "2907",
+        "file": "FtrPltFlwPansyVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Red Pansies",
+        "id": "2911",
+        "file": "FtrPltFlwPansyVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Yellow Pansies",
+        "id": "2915",
+        "file": "FtrPltFlwPansyVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Orange Pansies",
+        "id": "2919",
+        "file": "FtrPltFlwPansyVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Purple Pansies",
+        "id": "2923",
+        "file": "FtrPltFlwPansyVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Blue Pansies",
+        "id": "2927",
+        "file": "FtrPltFlwPansyVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "White Roses",
+        "id": "2931",
+        "file": "FtrPltFlwRoseVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Red Roses",
+        "id": "2935",
+        "file": "FtrPltFlwRoseVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Yellow Roses",
+        "id": "2939",
+        "file": "FtrPltFlwRoseVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Pink Roses",
+        "id": "2943",
+        "file": "FtrPltFlwRoseVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Orange Roses",
+        "id": "2947",
+        "file": "FtrPltFlwRoseVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Purple Roses",
+        "id": "2951",
+        "file": "FtrPltFlwRoseVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Black Roses",
+        "id": "2955",
+        "file": "FtrPltFlwRoseVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Blue Roses",
+        "id": "2959",
+        "file": "FtrPltFlwRoseVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Gold Roses",
+        "id": "2963",
+        "file": "FtrPltFlwRoseGoldVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "White Lilies",
+        "id": "2979",
+        "file": "FtrPltFlwYuriVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Red Lilies",
+        "id": "2983",
+        "file": "FtrPltFlwYuriVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Yellow Lilies",
+        "id": "2987",
+        "file": "FtrPltFlwYuriVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Pink Lilies",
+        "id": "2991",
+        "file": "FtrPltFlwYuriVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Orange Lilies",
+        "id": "2995",
+        "file": "FtrPltFlwYuriVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Black Lilies",
+        "id": "2999",
+        "file": "FtrPltFlwYuriVase",
+        "body_variations": [],
         "fabric_variations": []
     },
     {
@@ -9969,7 +11201,7 @@
         ]
     },
     {
-        "name": "Switch",
+        "name": "Light Switch",
         "id": "3471",
         "file": "FtrSwitchWall",
         "body_variations": [
@@ -11537,6 +12769,132 @@
                 "name": "Pink"
             }
         ]
+    },
+    {
+        "name": "White Windflowers",
+        "id": "3709",
+        "file": "FtrPltFlwAnemoneVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Orange Windflowers",
+        "id": "3713",
+        "file": "FtrPltFlwAnemoneVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Blue Windflowers",
+        "id": "3717",
+        "file": "FtrPltFlwAnemoneVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Pink Windflowers",
+        "id": "3720",
+        "file": "FtrPltFlwAnemoneVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Red Windflowers",
+        "id": "3723",
+        "file": "FtrPltFlwAnemoneVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Purple Windflowers",
+        "id": "3727",
+        "file": "FtrPltFlwAnemoneVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "White Hyacinths",
+        "id": "3730",
+        "file": "FtrPltFlwHyacinthVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Yellow Hyacinths",
+        "id": "3734",
+        "file": "FtrPltFlwHyacinthVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Pink Hyacinths",
+        "id": "3738",
+        "file": "FtrPltFlwHyacinthVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Orange Hyacinths",
+        "id": "3741",
+        "file": "FtrPltFlwHyacinthVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Red Hyacinths",
+        "id": "3744",
+        "file": "FtrPltFlwHyacinthVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Blue Hyacinths",
+        "id": "3748",
+        "file": "FtrPltFlwHyacinthVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Purple Hyacinths",
+        "id": "3751",
+        "file": "FtrPltFlwHyacinthVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "White Mums",
+        "id": "3754",
+        "file": "FtrPltFlwMumVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Yellow Mums",
+        "id": "3758",
+        "file": "FtrPltFlwMumVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Purple Mums",
+        "id": "3762",
+        "file": "FtrPltFlwMumVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Pink Mums",
+        "id": "3765",
+        "file": "FtrPltFlwMumVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Red Mums",
+        "id": "3768",
+        "file": "FtrPltFlwMumVase",
+        "body_variations": [],
+        "fabric_variations": []
     },
     {
         "name": "Golden Candlestick",
@@ -13944,7 +15302,7 @@
         "fabric_variations": []
     },
     {
-        "name": "Log Sofa",
+        "name": "Log Chair",
         "id": "4039",
         "file": "FtrLogSofaS",
         "body_variations": [
@@ -16248,6 +17606,55 @@
         "fabric_variations": []
     },
     {
+        "name": "Animal City",
+        "id": "4312",
+        "file": "FtrMjkDoubutuNoMachi",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Farewell",
+        "id": "4313",
+        "file": "FtrMjkSayonara",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Drivin'",
+        "id": "4314",
+        "file": "FtrMjkDrive",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "\u306f\u305a\u308c01",
+        "id": "4315",
+        "file": "FtrMjkJazz",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "\u306f\u305a\u308c02",
+        "id": "4316",
+        "file": "FtrMjkJazz",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "\u306f\u305a\u308c03",
+        "id": "4317",
+        "file": "FtrMjkJazz",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Welcome Horizons",
+        "id": "4318",
+        "file": "FtrMjkMainTheme",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
         "name": "Portable Record Player",
         "id": "4338",
         "file": "FtrPortablerecordplayer",
@@ -17301,6 +18708,13 @@
         "fabric_variations": []
     },
     {
+        "name": "Green Mums",
+        "id": "5175",
+        "file": "FtrPltFlwMumVase",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
         "name": "Ranchu Goldfish",
         "id": "5254",
         "file": "FtrFishRanchu",
@@ -17573,6 +18987,27 @@
                 "name": "Vivid"
             }
         ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Diy For Beginners",
+        "id": "5603",
+        "file": "FtrBookDIY",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Test Your Diy Skills",
+        "id": "5604",
+        "file": "FtrBookDIY",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wildest Dreams Diy",
+        "id": "5605",
+        "file": "FtrBookDIY",
+        "body_variations": [],
         "fabric_variations": []
     },
     {
@@ -22667,6 +24102,41 @@
         "fabric_variations": []
     },
     {
+        "name": "Top 8 Pop Hairstyles",
+        "id": "9049",
+        "file": "FtrBookHair",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Top 8 Cool Hairstyles",
+        "id": "9050",
+        "file": "FtrBookHair",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Top 8 Stylish Hair Colors",
+        "id": "9051",
+        "file": "FtrBookHair",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Pocket Organization Guide",
+        "id": "9052",
+        "file": "FtrBookIdea",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Pretty Good Tools Recipes",
+        "id": "9221",
+        "file": "FtrBookDIY",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
         "name": "Clothes Closet",
         "id": "9502",
         "file": "FtrFashioncase",
@@ -22783,6 +24253,13 @@
                 "name": "Watermelon"
             }
         ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Tool Ring: It'S Essential!",
+        "id": "9616",
+        "file": "FtrBookIdea",
+        "body_variations": [],
         "fabric_variations": []
     },
     {
@@ -23024,6 +24501,13 @@
         "name": "Mounted Blue Marlin",
         "id": "11128",
         "file": "FtrFishKajikiWall",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Ultimate Pocket Stuffing",
+        "id": "11140",
+        "file": "FtrBookIdea",
         "body_variations": [],
         "fabric_variations": []
     },
@@ -23337,6 +24821,235 @@
         "fabric_variations": []
     },
     {
+        "name": "Wedding Bench",
+        "id": "12401",
+        "file": "FtrWeddingChairL",
+        "body_variations": [
+            {
+                "file": "FtrWeddingChairLReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingChairLReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingChairLReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wedding Arch",
+        "id": "12402",
+        "file": "FtrWeddingArch",
+        "body_variations": [
+            {
+                "file": "FtrWeddingArchReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingArchReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingArchReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wedding Cake",
+        "id": "12403",
+        "file": "FtrWeddingCake",
+        "body_variations": [
+            {
+                "file": "FtrWeddingCakeReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingCakeReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingCakeReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wedding Head Table",
+        "id": "12404",
+        "file": "FtrWeddingTableM",
+        "body_variations": [
+            {
+                "file": "FtrWeddingTableMReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingTableMReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingTableMReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wedding Chair",
+        "id": "12405",
+        "file": "FtrWeddingChairS",
+        "body_variations": [
+            {
+                "file": "FtrWeddingChairSReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingChairSReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingChairSReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wedding Table",
+        "id": "12406",
+        "file": "FtrWeddingTableL",
+        "body_variations": [
+            {
+                "file": "FtrWeddingTableLReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingTableLReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingTableLReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wedding Decoration",
+        "id": "12407",
+        "file": "FtrWeddingFlowerWall",
+        "body_variations": [
+            {
+                "file": "FtrWeddingFlowerWallReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingFlowerWallReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingFlowerWallReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wedding Candle Set",
+        "id": "12408",
+        "file": "FtrWeddingCandle",
+        "body_variations": [
+            {
+                "file": "FtrWeddingCandleReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingCandleReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingCandleReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wedding Pipe Organ",
+        "id": "12409",
+        "file": "FtrWeddingOrgan",
+        "body_variations": [
+            {
+                "file": "FtrWeddingOrganReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingOrganReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingOrganReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wedding Welcome Board",
+        "id": "12410",
+        "file": "FtrWeddingBoard",
+        "body_variations": [
+            {
+                "file": "FtrWeddingBoardReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingBoardReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingBoardReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": [
+            {
+                "file": "FtrWeddingBoardReFabric0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingBoardReFabric1",
+                "name": "Placeholder_1"
+            }
+        ]
+    },
+    {
+        "name": "Wedding Flower Stand",
+        "id": "12411",
+        "file": "FtrWeddingFlower",
+        "body_variations": [
+            {
+                "file": "FtrWeddingFlowerReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWeddingFlowerReBody1",
+                "name": "Placeholder_1"
+            },
+            {
+                "file": "FtrWeddingFlowerReBody2",
+                "name": "Placeholder_2"
+            }
+        ],
+        "fabric_variations": []
+    },
+    {
         "name": "Wobbling Zipper Toy",
         "id": "12412",
         "file": "FtrDollPyn",
@@ -23421,9 +25134,114 @@
         "fabric_variations": []
     },
     {
+        "name": "Thank-You Mom Mug",
+        "id": "12470",
+        "file": "FtrThankyouMugM",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Thank-You Dad Mug",
+        "id": "12471",
+        "file": "FtrThankyouMugF",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Rover'S Briefcase",
+        "id": "12472",
+        "file": "FtrTrunkXct",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Fossil Plaque",
+        "id": "12484",
+        "file": "FtrMuseumFossilWall",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Bug Plaque",
+        "id": "12485",
+        "file": "FtrMuseumInsectWall",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Fish Plaque",
+        "id": "12486",
+        "file": "FtrMuseumFishWall",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
         "name": "Bunny Day Wreath",
         "id": "12517",
         "file": "FtrDoorOrnamentWreathEaster",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Rock-Head Statue ",
+        "id": "12533",
+        "file": "FtrSculptureOlmecaHead",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Rock-Head Statue ",
+        "id": "12534",
+        "file": "FtrSculptureOlmecaHeadFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Informative Statue",
+        "id": "12535",
+        "file": "FtrSculptureRosettaStone",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Informative Statue",
+        "id": "12536",
+        "file": "FtrSculptureRosettaStoneFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Tremendous Statue",
+        "id": "12537",
+        "file": "FtrSculptureHoumuwuDing",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Tremendous Statue",
+        "id": "12538",
+        "file": "FtrSculptureHoumuwuDingFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Warrior Statue",
+        "id": "12539",
+        "file": "FtrSculptureHeibayo",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Warrior Statue",
+        "id": "12540",
+        "file": "FtrSculptureHeibayoFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Familiar Statue",
+        "id": "12541",
+        "file": "FtrSculptureThinker",
         "body_variations": [],
         "fabric_variations": []
     },
@@ -23444,10 +25262,110 @@
         "fabric_variations": []
     },
     {
+        "name": "Reese & Cyrus Photo Plate",
+        "id": "12565",
+        "file": "FtrWeddingDish",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wild Painting Left Half",
+        "id": "12570",
+        "file": "FtrArtRaijin",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Wild Painting Left Half",
+        "id": "12571",
+        "file": "FtrArtRaijinFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
         "name": "Acnh Nintendo Switch",
         "id": "12579",
         "file": "FtrSwitchAC",
         "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Twinkling Painting",
+        "id": "12618",
+        "file": "FtrArtStarryNight",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Academic Painting",
+        "id": "12619",
+        "file": "FtrArtVitruvianMan",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Academic Painting",
+        "id": "12620",
+        "file": "FtrArtVitruvianManFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Sinking Painting",
+        "id": "12621",
+        "file": "FtrArtOphelia",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Detailed Painting",
+        "id": "12622",
+        "file": "FtrArtAjisaisoukeizu",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Detailed Painting",
+        "id": "12623",
+        "file": "FtrArtAjisaisoukeizuFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Glowing Painting",
+        "id": "12624",
+        "file": "FtrArtFightingTemeraire",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Mysterious Painting",
+        "id": "12625",
+        "file": "FtrArtIsleOfDead",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "Scenic Painting",
+        "id": "12629",
+        "file": "FtrArtHunterSnowFake",
+        "body_variations": [],
+        "fabric_variations": []
+    },
+    {
+        "name": "World Map",
+        "id": "12741",
+        "file": "FtrWorldMap",
+        "body_variations": [
+            {
+                "file": "FtrWorldMapReBody0",
+                "name": "Placeholder_0"
+            },
+            {
+                "file": "FtrWorldMapReBody1",
+                "name": "Placeholder_1"
+            }
+        ],
         "fabric_variations": []
     }
 ]
